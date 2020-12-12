@@ -22,3 +22,18 @@ The predictions for each row must be shown.
 
 3.	A writeup on your solution/process – analysis, research, data exploration, model selection, evaluation measures, model comparison etc. Please include references.
 
+## Scoring:
+The assignment will be graded based on the following criteria and in this priority order.
+1.	Model accuracy.
+2.	Clean, Original, Readable Code. (Use of off-the-shelf libraries is discouraged)
+3.	Research and Justification.
+4.	Analysis on data, model, performance.
+
+
+## Submission
+You have 7 days to complete and submit the assignment, starting from the day you receive it. Please upload the artifacts to a Github Repo and share with us, in a response email.
+
+
+Thank you.
+We look forward to working with you.
+
