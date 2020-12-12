@@ -2,8 +2,7 @@
 Chata Interview assessment-NLP Data Scientist
 
 ## Assignment Question
-
-- Data description: 
+Data description: 
 The assignment is a sentiment classification task for hotel reviews. There are 5 ratings that are the labels to be predicted based on the text in the reviews. You have been given the ratings for the train and dev sets. The ratings on the test set have been withheld. 
 
 Data Download Path: https://chataai.sharepoint.com/:f:/g/EtI-zi28qBJKjafd6BVpkTgBNM906KqOA3zfZU4fXXMGeA?e=fMEKGx 
