@@ -1,2 +1,2 @@
-# Chata-assessment
+# Chata Assessment
 Chata Interview assessment-NLP Data Scientist
