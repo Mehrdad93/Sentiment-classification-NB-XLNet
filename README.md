@@ -5,14 +5,23 @@ Chata Interview assessment-NLP Data Scientist
 **Folder Structure**
 
 .
+
 |
+
 +--- Chata-assessment
+
     |+--- **README.md**
+    
     |+--- **EDA**
+    
     |     +--- EDA related images (.png)
+    
     |+--- **data**
+    
     |     +--- train/dev/test datasets (.csv)
+    
     |+--- **result**
+    
     |     +--- SOTA
     |          +--- dev/test outputs (.csv) + fine-tuned xlnet model
     |     +--- basic
