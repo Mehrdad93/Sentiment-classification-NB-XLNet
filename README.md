@@ -1,6 +1,35 @@
 # Chata Assessment
 Chata Interview assessment-NLP Data Scientist
 
+
+**Folder Structure**
+
+.
+|
++--- Chata-assessment
+    |+--- **README.md**
+    |+--- **EDA**
+    |     +--- EDA related images (.png)
+    |+--- **data**
+    |     +--- train/dev/test datasets (.csv)
+    |+--- **result**
+    |     +--- SOTA
+    |          +--- dev/test outputs (.csv) + fine-tuned xlnet model
+    |     +--- basic
+    |          +--- dev/test outputs (.csv) + multinomial naive bayes trained model
+    |+--- **src**
+    |     +--- SOTA
+    |          +--- fine-tuned xlnet model source code
+    |     +--- basic
+    |          +--- multinomial naive bayes algo source code
+
+
+
+
+
+--------------------------------
+
+
 ## Assignment Question
 **Data description:**
 The assignment is a sentiment classification task for hotel reviews. There are 5 ratings that are the labels to be predicted based on the text in the reviews. You have been given the ratings for the train and dev sets. The ratings on the test set have been withheld. 
