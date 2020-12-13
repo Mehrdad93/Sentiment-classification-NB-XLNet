@@ -50,11 +50,18 @@ iv) labels: a single value of 1 or 0. In our task 1 means "grammatical" and 0 me
 
 
 
-**4) Fine-tuning XLNet model**
+**4) Fine-tuning pre-trained XLNet model**
 
 Thankfully, the huggingface pytorch implementation includes a set of interfaces designed for a variety of NLP tasks. Though **these interfaces are all built on top of a trained model**, each has different top layers and output types designed to accomodate their specific NLP task.
 
 In this task `XLNetForSequenceClassification` was used. This is the normal XLNet model with an added single linear layer on top for classification that we will use as a sentence classifier. As we feed input data, the entire pre-trained XLNet model and the additional untrained classification layer is trained on our specific task. Rather than training every layer in a large model from scratch, it's as if we have already trained the bottom layers 95% of where they need to be, and **only really need to train the top layer**, with a bit of tweaking going on in the lower levels to accomodate our task.
+
+There are a few different pre-trained XLNet models available. In this work **`xlnet-base-cased`** used, which means the version that has both upper and lowercase letters ("cased") and is the smaller version of the two ("base" vs "large"). Due to the new GPU limitations on Colab `xlnet-large-cased` is not feasible. However, I have tried to load and finetune the large XLNnet model with lower batch and epoch numbers which led to a very poor accuracy (will be shown later in this page).
+
+For the purposes of fine-tuning, the authors recommend the following hyperparameters in the following ranges (broken down by which NLP dataset they are applied to):
+
+<img src="https://github.com/faezeh-bayat/Variance-stabilized-units-for-sequencing-based-genomic-signals/blob/master/bin/VSS_general_schematic/VSS.png" width="800"/>
+
 
 **5) Fine-tuning XLNet model**
 
