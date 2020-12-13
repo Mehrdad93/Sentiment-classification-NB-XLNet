@@ -1,6 +1,6 @@
 **Sentiment_ratings_labels**
 
-1: lowest
+1: lowest rating score
 
 2
 
@@ -8,5 +8,5 @@
 
 4
 
-5: highest
+5: highest rating score
 
