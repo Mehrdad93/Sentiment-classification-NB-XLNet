@@ -1,4 +1,4 @@
-## A State of the art (SOTA) model: XLNet
+## NLP State-Of-The-Art (SOTA) model: XLNet
 
 - The SOTA (fine-tuned XLNet-base) model can be here: 
 
@@ -6,7 +6,7 @@
 
 - To load the saved model on Python, use the code below:
 
-*model.load_state_dict(torch.load(filepath))*
+`model.load_state_dict(torch.load(filepath))`
 
 ------------------------
 
