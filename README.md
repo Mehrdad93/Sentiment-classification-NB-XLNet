@@ -5,10 +5,9 @@ Chata Interview assessment-NLP Data Scientist
 **Folder Structure**
 
 
-+--- 
-.
-|
-+--- Chata-assessment
+
+Chata-assessment
+
     |+--- README.md
     |+--- EDA
     |     +--- EDA related images (.png)
