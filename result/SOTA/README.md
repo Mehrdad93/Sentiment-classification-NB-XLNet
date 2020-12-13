@@ -20,9 +20,26 @@ Here is another usefull document for comparing the accuracy of XLNet-base and -l
 
 **2) Pytorch interface for XLNet**
 
-To produce a classifier for text classification, I have finetune the pretrained XLNet-base model with the huggingface PyTorch library (pytorch-**transformers**). 
+To produce a classifier for text classification, I have finetune the pretrained XLNet-base model with the huggingface PyTorch library (**pytorch-transformers** and **transformers**). 
 
 > Ref: https://colab.research.google.com/drive/16gx06PVffJwS4pRhysCmc5qbPm26vsY8
+
+**3) XLNet tokenizer**
+
+XLNet requires specifically formatted inputs. For each tokenized input sentence, we need to create:
+
+i) input ids: a sequence of integers identifying each input token to its index number in the XLNet tokenizer vocabulary
+
+ii)segment mask: (optional) a sequence of 1s and 0s used to identify whether the input is one sentence or two sentences long. For one sentence inputs, this is simply a sequence of 0s. For two sentence inputs, there is a 0 for each token of the first sentence, followed by a 1 for each token of the second sentence
+
+iii) attention mask: (optional) a sequence of 1s and 0s, with 1s for all input tokens and 0s for all padding tokens (we'll detail this in the next paragraph)
+
+iv) labels: a single value of 1 or 0. In our task 1 means "grammatical" and 0 means "ungrammatical"
+
+Also, XLNet token pattern looks like this:
+
+  [CLS] + Sentence_A + [SEP] + Sentence_B + [SEP]
+
 
 **3) Fine-tuning XLNet**
 
