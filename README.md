@@ -6,14 +6,14 @@ Chata Interview assessment-NLP Data Scientist
 
     |+--- README.md
     |+--- EDA
-    |     +--- EDA related images (.png)
+    |     +--- EDA related images (.png) + explanations 
     |+--- data
     |     +--- train/dev/test datasets (.csv)
     |+--- result
     |     +--- SOTA
-    |          +--- dev/test outputs (.csv) + fine-tuned xlnet model
+    |          +--- model evaluation results (.csv) + fine-tuned xlnet model
     |     +--- basic
-    |          +--- dev/test outputs (.csv) + multinomial naive bayes trained model
+    |          +--- model evaluation results (.csv) + multinomial naive bayes trained model
     |+--- src
     |     +--- SOTA
     |          +--- fine-tuned xlnet model source code
@@ -21,7 +21,7 @@ Chata Interview assessment-NLP Data Scientist
     |          +--- multinomial naive bayes algo source code
 
 
-
+Each folder has its own README file. So, for extra explanations please go to the sub-folders.
 
 
 --------------------------------
@@ -31,12 +31,12 @@ Chata Interview assessment-NLP Data Scientist
 **Data description:**
 The assignment is a sentiment classification task for hotel reviews. There are 5 ratings that are the labels to be predicted based on the text in the reviews. You have been given the ratings for the train and dev sets. The ratings on the test set have been withheld. 
 
-Data Download Path: https://chataai.sharepoint.com/:f:/g/EtI-zi28qBJKjafd6BVpkTgBNM906KqOA3zfZU4fXXMGeA?e=fMEKGx 
+> Data Download Path: https://chataai.sharepoint.com/:f:/g/EtI-zi28qBJKjafd6BVpkTgBNM906KqOA3zfZU4fXXMGeA?e=fMEKGx 
 
 
 ## Task Description:
  Please build 2 models for this text classification task – 
-1.	A Baseline model  
+1. A Baseline model  
 2. A State of the art (SOTA) model and compare them.
 
 Artifacts to be submitted:
