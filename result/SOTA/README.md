@@ -60,7 +60,7 @@ There are a few different pre-trained XLNet models available. In this work **`xl
 
 For the purposes of fine-tuning, the authors recommend the following hyperparameters in the following ranges (broken down by which NLP dataset they are applied to):
 
-<img align="right" src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/hyper_par_xlnet.png" width="500"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/hyper_par_xlnet.png" width="500"/>
 
 
 **5) Fine-tuning XLNet model**
