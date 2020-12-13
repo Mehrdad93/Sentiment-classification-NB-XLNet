@@ -1,7 +1,7 @@
 
-1. 'Counts of each sentiment in train data' shows the distribution of ratings in training data. The distribution of the data in train set is very well balanced, meaning no over- or undersampling is needed. Also, from this image, it can be seen that one 'rating' in the train is holding some texts, which ruins the numeric (1,2,3,4,5) order of classes. This instance got removed!
+1. 'rating_distr_train_set' or 'counts of each sentiment in train data' shows the distribution of ratings in training data. The distribution of the data in train set is very well balanced, meaning no over- or undersampling is needed. Also, from this image, it can be seen that one 'rating' in the train is holding some texts, which ruins the numeric (1,2,3,4,5) order of classes. This instance got removed!
 
-2. 'Counts of each sentiment in dev data' shows the distribution of ratings in development data. The distribution of the data in dev set is very well balanced, meaning no over- or undersampling is needed.
+2. 'rating_distr_dev_set' or 'counts of each sentiment in dev data' shows the distribution of ratings in development data. The distribution of the data in dev set is very well balanced, meaning no over- or undersampling is needed.
 
 3. 'wordcloud_highest' shows the most frequent words in the raw train set for the highest rating hotels (5). As you can see, words like excellent, relaxing, friendly, perfectly, convinent, are among the most frequent ones.
 
