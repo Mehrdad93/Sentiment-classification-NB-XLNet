@@ -1,4 +1,4 @@
-# Chata Assessment
+# Chata Technology Inc. Assessment
 Chata Interview assessment-NLP Data Scientist
 
 
