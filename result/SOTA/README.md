@@ -77,10 +77,24 @@ Here is the classification report on development set (unseen dataset with rating
 
 Using the same GPU (Tesla T4) and RAM (12 G), I have fine-tuned our sota model with variety of hyperparameters to find the best set of them. Here is the my findings:
 
+`xlnet-base-cased`
+
+| Accuracy | Batch | Epoch | Learning Rate | Data Cleaning |
+| :-----: | :----: | :----: | :-------: | :-------: |
+| **0.79** | 32 | 4 | 3e-5 | No |
+| 0.78 | 48 | 4 | 3e-5 | No |
+| 0.78 | 32 | 6 | 3e-5 | No |
+| 0.78 | 32 | 6 | 5e-5 | No |
+| 0.78 | 32 | 4 | 1e-5 | No |
+| 0.78 | 32 | 4 | 3e-5 | **Yes** |
+| 0.21 | 32 | 4 | **4e-4** | No |
+
+
+`xlnet-large-cased`
+
 | Accuracy | Batch | Epoch | Learning Rate |
 | :-----: | :----: | :----: | :-------: |
-| Seconds | 301 | 283 | 283 |
-
+| 0.75 | 8 | 4 | 3e-5 |
 
 **8) References**
 
