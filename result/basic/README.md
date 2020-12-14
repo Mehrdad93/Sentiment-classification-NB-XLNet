@@ -30,7 +30,7 @@ Ref: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extractio
 
 Here is a small snippet of the Multinomial NB results (predicted ratings) on developmenmt dataset (unseen data with ratings for comparison):
 
-<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/basic/image/basic_result.png" width="750"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/basic/image/basic_result.png" width="1000"/>
 
 Here is the classification report on development set:
 
