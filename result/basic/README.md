@@ -48,7 +48,7 @@ As discussed in the first part, these two models are showing better results amon
 
 For the purpose of sentiment analysis with basic models, some [references](https://www.kaggle.com/neokaixiang89/using-pos-tag-to-aid-textual-data-pre-processing) suggest to take advantage of Parts-Of-Speech (POS) technique to only keep adjectives and adverbs (and sometimes verbs) to better reflect the sentiment of each review/comment and make the computation faster.
 
-However, as shown in table above, removing non -adjectives, -adverbs, and -verbs in our problem did not go very well and made the overall accuracy about 20% smaller!
+However, as shown in table above, removing non-adjectives, -adverbs, and -verbs in our problem did not go very well and made the overall accuracy about 20% smaller!
 
 **5) References**
 
