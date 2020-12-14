@@ -57,6 +57,7 @@ For the purposes of fine-tuning, the authors recommend the following hyperparame
 
 <img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/hyper_par_xlnet.png" width="500"/>
 
+**Side Note:** Classes (in our case: ratings) should start from 0 (0:4) not 1! Not knowing that while using `transformers` library in Python would raise numerous errors.
 
 **5) Training loss**
 
