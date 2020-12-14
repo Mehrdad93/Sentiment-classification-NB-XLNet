@@ -80,8 +80,8 @@ Using the same GPU (Tesla T4) and RAM (12 G), I have fine-tuned our sota model w
 
 `xlnet-base-cased`
 
-| Accuracy | Batch | Epoch | Learning Rate | Data Cleaning |
-| :-----: | :----: | :----: | :-------: | :-------: |
+| Accuracy | Batch Size | Epoch | Learning Rate | Data Cleaning |
+| :-----: | :-----: | :----: | :-------: | :-------: |
 | **0.79** | 32 | 4 | 3e-5 | No |
 | 0.78 | 48 | 4 | 3e-5 | No |
 | 0.78 | 32 | 6 | 3e-5 | No |
@@ -96,7 +96,7 @@ Another interesting result is that adding emoji removal function to our pre-proc
 
 `xlnet-large-cased`
 
-| Accuracy | Batch | Epoch | Learning Rate |
+| Accuracy | Batch size | Epoch | Learning Rate |
 | :-----: | :----: | :----: | :-------: |
 | 0.75 | 8 | 4 | 3e-5 |
 
