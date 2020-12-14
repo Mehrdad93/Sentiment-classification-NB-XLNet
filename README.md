@@ -25,7 +25,7 @@ Chata Interview assessment-NLP Data Scientist
     |          +--- multinomial naive bayes algo source code
 
 
-Each folder has its own README file. So, for extra explanations please go to the sub-folders.
+Each folder has its own README file. So, for extra explanations please visit the sub-folders.
 
 
 --------------------------------
