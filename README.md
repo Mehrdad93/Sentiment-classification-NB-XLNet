@@ -28,14 +28,10 @@ Each folder has its own README file. So, for extra explanations please visit the
 
 --------------------------------
 
-
 ## Problem
 
 **Data description:**
 This is a sentiment classification task for hotel reviews. There are 5 ratings that are the labels to be predicted based on the text in the reviews. You have been given the ratings for the train and dev sets. The ratings on the test set have been withheld. 
-
-> Data Download Path: https://drive.google.com/drive/folders/11SmNcTWwe4n52AzfmcS-yn-qI6d_loyZ?usp=sharing 
-
 
 ## Task Description:
  Building 2 models for the text classification task – 
