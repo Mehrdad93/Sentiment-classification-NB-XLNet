@@ -10,7 +10,7 @@
 
 ------------------------
 
-**1) Which SOTA for sentiment classification?**
+**1) SOTA for sentiment classification**
 
 Finding a proper SOTA for sentiment classification task was the first step to be done. For that purpose, I have looked up the *NLP-progress* website and some other novel literatures in NLP area: http://nlpprogress.com/english/sentiment_analysis.html
 
@@ -65,18 +65,24 @@ The XLNet fine-tuned model's training loss over all batches can be seen below. A
 Number of training epochs = 4
 Number of batches = 32
 
-<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/train_loss_xlnet.png" width="500"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/train_loss_xlnet.png" width="750"/>
 
-**6) Prediction and evaluation on  dev/test sets**
+**6) Prediction and evaluation on dev set**
+
+Here is the classification report on development set (unseen set with ratings):
+
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/xlnet_model_report.png" width="750"/>
+
+**7) Hyperparameter vs. Accuracy**
 
 
 
 
-**n-1) References**
+**8) References**
 
 The source code is written in Python 3 using Colab and I have used multiple references to finish the task. All references have been cited and mentioned in Colab code cells (src directory). 
 
-**n) Acknowledgment**
+**9) Acknowledgment**
 
 I would like to acknowledge the role of Google Colab platform in this assessment for providing me with free GPUs, which was a must for fine-tuning the XLNet models.
 
