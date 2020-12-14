@@ -18,6 +18,7 @@ As you can see in the link above, **XLNet (Yang et al., 2019) model** shows prom
 
 Here is another usefull document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
 
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="500"/>
 
 **2) Pytorch interface for XLNet**
 
@@ -34,7 +35,6 @@ XLNet token pattern looks like this:
 
 , which For single sentence inputs here, we just need to add `[SEP]` and `[CLS]` to the end.
 
-
 XLNet also requires specifically formatted inputs. For each tokenized input sentence, we need to create:
 
 i) input ids: a sequence of integers identifying each input token to its index number in the XLNet tokenizer vocabulary
@@ -44,11 +44,6 @@ ii)segment mask: (optional) a sequence of 1s and 0s used to identify whether the
 iii) attention mask: (optional) a sequence of 1s and 0s, with 1s for all input tokens and 0s for all padding tokens (we'll detail this in the next paragraph)
 
 iv) labels: a single value of 1 or 0. In our task 1 means "grammatical" and 0 means "ungrammatical"
-
-
-
-
-
 
 **4) Fine-tuning pre-trained XLNet model**
 
@@ -63,7 +58,18 @@ For the purposes of fine-tuning, the authors recommend the following hyperparame
 <img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/hyper_par_xlnet.png" width="500"/>
 
 
-**5) Fine-tuning XLNet model**
+**5) Training loss**
+
+The XLNet fine-tuned model's training loss over all batches can be seen below. As you can see, training loss is fluctuating quite a lot, however, the loss trend is promising and in each epoch we can see the loss gets smaller and smaller. 
+
+Number of training epochs = 4
+Number of batches = 32
+
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/train_loss_xlnet.png" width="500"/>
+
+**6) Prediction and evaluation on  dev/test sets**
+
+
 
 
 **n-1) References**
