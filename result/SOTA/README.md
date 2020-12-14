@@ -14,7 +14,9 @@
 
 Finding a proper SOTA for sentiment classification task was the first step to be done. For that purpose, I have looked up the *NLP-progress* website and some other novel literatures in NLP area: http://nlpprogress.com/english/sentiment_analysis.html
 
-As you can see in the link above, **XLNet (Yang et al., 2019) model** shows promising results for both fine-grained as well as binary classification problems on all IMDb, Yelp, and SST datasets.
+As you can see in the link above, **[XLNet (Yang et al., 2019) model!](https://github.com/zihangdai/xlnet)** shows promising results for both fine-grained as well as binary classification problems on all IMDb, Yelp, and SST datasets.
+
+
 
 Here is another usefull document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
 
@@ -89,12 +91,20 @@ Using the same GPU (Tesla T4) and RAM (12 G), I have fine-tuned our sota model w
 | 0.78 | 32 | 4 | 3e-5 | **Yes** |
 | 0.21 | 32 | 4 | **4e-4** | No |
 
+As shown in table above, changing batch size and epoch as long as they are in the recommended ranges (published by author of XLNet paper), the overall accuracy will not change significantly. However, learning rate can play an important role on the accuracy if changes by an order of magnitude. 
+
+Another interesting result is that adding emoji removal function to our pre-processing part does not affect the overall accuracy since 
+
+
 
 `xlnet-large-cased`
 
 | Accuracy | Batch | Epoch | Learning Rate |
 | :-----: | :----: | :----: | :-------: |
 | 0.75 | 8 | 4 | 3e-5 |
+
+
+
 
 **8) References**
 
