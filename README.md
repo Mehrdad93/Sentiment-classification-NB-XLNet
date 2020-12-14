@@ -1,4 +1,4 @@
-# Naive Bayes vs. XLNet-base
+# XLNet-base vs. Naive Bayes classifier
 
 **Folder Structure**
 
