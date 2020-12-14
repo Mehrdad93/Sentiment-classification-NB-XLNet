@@ -104,7 +104,7 @@ Going over 8 batchese is also computationally very expensive and with the new Go
 
 **8) References**
 
-The source code is written in Python 3 using Colab and I have used multiple references to finish the task. All references have been cited and mentioned in Colab code cells (src directory). 
+The source code is written in Python 3 using Colab and I have used multiple references to finish the task. All references have been cited and mentioned in  the source code (colab code cells). Please look at the `src` directory. 
 
 **9) Acknowledgment**
 
