@@ -46,9 +46,9 @@ As discussed in the first part, these two models are showing better results amon
 | 0.61 | Multinomial Naive Bayes | 0.80 | Basic cleaning + remove non adj./verb/adverb |
 | 0.40 | Random Forest | 0.44 | Only basic cleaning |
 
-For the purpose of sentiment analysis with basic models, some [references](https://www.kaggle.com/neokaixiang89/using-pos-tag-to-aid-textual-data-pre-processing) suggest to take advantage of Parts-Of-Speech (POS) technique to only keep adjectives and adverbs (and sometimes verbs) to better reflect the sentiment of each review/comment. 
+For the purpose of sentiment analysis with basic models, some [references](https://www.kaggle.com/neokaixiang89/using-pos-tag-to-aid-textual-data-pre-processing) suggest to take advantage of Parts-Of-Speech (POS) technique to only keep adjectives and adverbs (and sometimes verbs) to better reflect the sentiment of each review/comment and make the computation faster.
 
-As shown in table above, removing 
+However, as shown in table above, removing non -adjectives, -adverbs, and -verbs in our problem did not go very well and made the overall accuracy about 20% smaller!
 
 **5) References**
 
