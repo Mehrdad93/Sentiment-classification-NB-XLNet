@@ -16,7 +16,7 @@ Finding a proper SOTA for sentiment classification task was the first step to be
 
 As you can see in the link above, **[XLNet (Yang et al., 2019) model](https://github.com/zihangdai/xlnet)** shows promising results for both fine-grained as well as binary classification problems on all IMDb, Yelp, and SST datasets.
 
-Here is another usefull document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
+Here is another useful document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
 
 <img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="500"/>
 
@@ -64,7 +64,7 @@ For the purposes of fine-tuning, the authors recommend the following hyperparame
 The XLNet fine-tuned model's training loss over all batches can be seen below. As you can see, training loss is fluctuating quite a lot, however, the loss trend is promising and in each epoch we can see the loss gets smaller and smaller. 
 
 Number of training epochs = 4
-Number of batches = 32
+batch size = 32
 
 <img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/train_loss_xlnet.png" width="750"/>
 
