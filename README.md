@@ -14,9 +14,9 @@ Chata Interview assessment-NLP Data Scientist
     |
     |+--- result
     |     +--- SOTA
-    |          +--- model evaluation results (.csv) + fine-tuned xlnet model
+    |          +--- model evaluation results (.csv) + fine-tuned xlnet model + explanations 
     |     +--- basic
-    |          +--- model evaluation results (.csv) + multinomial naive bayes trained model
+    |          +--- model evaluation results (.csv) + multinomial naive bayes trained model + explanations 
     |
     |+--- src
     |     +--- SOTA
