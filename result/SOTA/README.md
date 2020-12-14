@@ -18,7 +18,7 @@ As you can see in the link above, **XLNet (Yang et al., 2019) model** shows prom
 
 Here is another usefull document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
 
-<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="750"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="500"/>
 
 **2) Pytorch interface for XLNet**
 
