@@ -17,10 +17,10 @@
     |          +--- model evaluation results (.csv) + multinomial naive bayes trained model + explanations 
     |
     |+--- src
-          +--- SOTA
-               +--- fine-tuned xlnet model source code
-          +--- basic
-               +--- multinomial naive bayes algo source code
+    |     +--- SOTA
+    |          +--- fine-tuned xlnet model source code
+    |     +--- basic
+    |          +--- multinomial naive bayes algo source code
 
 
 Each folder has its own README file. So, for extra explanations please visit the sub-folders.
