@@ -18,7 +18,7 @@ As you can see in the link above, **XLNet (Yang et al., 2019) model** shows prom
 
 Here is another usefull document for comparing the accuracy of XLNet-base and -large models and other sota models such as BERT and RoBERTa: https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec5-pretraining2.pdf
 
-<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="500"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/picking_sota.png" width="750"/>
 
 **2) Pytorch interface for XLNet**
 
@@ -69,13 +69,17 @@ Number of batches = 32
 
 **6) Prediction and evaluation on dev set**
 
-Here is the classification report on development set (unseen set with ratings):
+Here is the classification report on development set (unseen dataset with ratings):
 
 <img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/xlnet_model_report.png" width="500"/>
 
 **7) Hyperparameter vs. Accuracy**
 
+Using the same GPU (Tesla T4) and RAM (12 G), I have fine-tuned our sota model with variety of hyperparameters to find the best set of them. Here is the my findings:
 
+| Accuracy | Batch | Epoch | Learning Rate |
+| :-----: | :----: | :----: | :-------: |
+| Seconds | 301 | 283 | 283 |
 
 
 **8) References**
