@@ -71,7 +71,7 @@ Number of batches = 32
 
 Here is the classification report on development set (unseen set with ratings):
 
-<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/xlnet_model_report.png" width="750"/>
+<img src="https://github.com/Mehrdad93/Chata-assessment/blob/main/result/SOTA/image/xlnet_model_report.png" width="350"/>
 
 **7) Hyperparameter vs. Accuracy**
 
